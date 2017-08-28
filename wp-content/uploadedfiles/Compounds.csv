@@ -1,0 +1,32 @@
+Product Code,Category,Description,Size, Price in Php ,filename used
+CP 053 10Kg Packing,Compounds,Body Scrub,10Kg,"1,736.00",10Kg-Body Scrub
+CP 053 1Kg Packing,Compounds,Body Scrub,1Kg,190.4,1Kg-Body Scrub
+CP 050 10Kg Packing,Compounds,Body Wash,10Kg,"1,176.00",10Kg-Body Wash
+CP 050 1Kg Packing,Compounds,Body Wash,1Kg,134.4,1Kg-Body Wash
+CP 051 10Kg Packing,Compounds,Conditioner,10Kg,"1,176.00",10Kg-Conditioner
+CP 051 1Kg Packing,Compounds,Conditioner,1Kg,134.4,1Kg-Conditioner
+CP 034,Compounds,Denatured,1Ltr,134.4,1Ltr-Denatured
+CP 055,Compounds,Denatured,1Gal,421.12,1Gal-Denatured
+CP 036,Compounds,Deodorant,3.75Kg,903,3.75Kg-Deodorant
+CP 036 1Kg,Compounds,Deodorant,1Kg,257.6,1Kg-Deodorant
+CP 029,Compounds,Deodorized,1gal,504,1gal-Deodorized
+CP 030,Compounds,Deodorized,1Ltr,179.2,1Ltr-Deodorized
+CP 059 125g,Compounds,Deofix (Liquid Fixative),125g,545.64,125g-Deofix (Liquid Fixative)
+CP 059 250g,Compounds,Deofix (Liquid Fixative),250g,"1,007.33",250g-Deofix (Liquid Fixative)
+CP 059 30g,Compounds,Deofix (Liquid Fixative),30g,168,30g-Deofix (Liquid Fixative)
+CP 062 500g,Compounds,Deofix (Liquid Fixative),500g,"1,678.88",500g-Deofix (Liquid Fixative)
+CP 040 135g,Compounds,Designer Fragrance Soap Gluta,135g,34.72,135g-Designer Fragrance Soap Gluta
+CP 031,Compounds,DPG,1Ltr,434.56,1Ltr-DPG
+CP 061 1Kg,Compounds,Fabric Softener (Downy type),1Kg,"2,016.00",1Kg-Fabric Softener (Downy type)
+CP 061 500g,Compounds,Fabric Softener (Downy type),500g,"1,008.00",500g-Fabric Softener (Downy type)
+CP 032,Compounds,Fixative,100g,476,100g-Fixative
+CP 054,Compounds,Fixative,200g,896,200g-Fixative
+CP 048 10Kg Packing,Compounds,Hand Sanitizer,10Kg,"1,232.00",10Kg-Hand Sanitizer
+CP 048 1Kg Packing,Compounds,Hand Sanitizer,1Kg,145.6,1Kg-Hand Sanitizer
+CP 060 1Kg,Compounds,J&J Baby Powder,1Kg,"2,674.56",1Kg-J&J Baby Powder
+CP 060 500g,Compounds,J&J Baby Powder,500g,"1,337.28",500g-J&J Baby Powder
+CP 047 10Kg Packing,Compounds,Lotion Base,10Kg,"1,176.00",10Kg-Lotion Base
+CP 047 1Kg Packing,Compounds,Lotion Base,1Kg,134.4,1Kg-Lotion Base
+CP 049 10Kg Packing,Compounds,Shampoo,10Kg,"1,176.00",10Kg-Shampoo
+CP 049 1Kg Packing,Compounds,Shampoo,1Kg,134.4,1Kg-Shampoo
+CP 035,Compounds,Silicon,1Ltr,546.56,1Ltr-Silicon

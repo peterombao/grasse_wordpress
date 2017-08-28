@@ -1,0 +1,1 @@
+[01-Dec-2013 08:15:31 CST6CDT] PHP Fatal error:  Call to undefined function add_action() in /home/grassefr/public_html/wordpress/wp-content/plugins/contact-form-7/includes/controller.php on line 3

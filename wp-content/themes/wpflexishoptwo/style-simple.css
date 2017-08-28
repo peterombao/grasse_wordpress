@@ -1,0 +1,33 @@
+/**
+* The stylesheet for SIMPLE style layout.
+*
+* @package WordPress
+* @subpackage WPFlexiShop_Two
+* @since WP FlexiShop Two 1.0
+*/
+
+#container{
+  border-top:5px solid #d35147;
+}
+
+#topnav {
+  border-bottom: 1px solid #eee;
+}
+
+#header {
+  border-top:1px solid #EEE;
+  border-bottom:1px solid #EEE;
+}
+
+#headersubcategories {
+  border-top:1px solid #EEE;
+}
+
+#header #headercustom {
+	padding: 0;
+}
+
+#footertop, #footerbottom, #footercredits {
+  border-top: 1px solid #eee;
+}
+

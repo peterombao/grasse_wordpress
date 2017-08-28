@@ -1,0 +1,369 @@
+	/*
+Theme Name: Grasse theme
+Description: <strong>A Responsive e-Commerce Theme by Alex Gurghis</strong> - <br/> Update notifications available on twitter:<br/> <a href='http://twitter.com/agurghis'>Follow me on twitter</a>
+Version: 1.0
+Author: Benj Dijamco
+Template: wpflexishoptwo
+Tags: bbpress, jigoshop, shop, e-commerce, wordpress, theme, colorful
+*/
+
+/* url('css/grid.css') loads the default grid with all widths for the different screens */
+
+/* url('css/main.css') loads template styles */  
+
+/* url('css/skin.css') loads skin */
+
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+#container{
+  padding-top:0px;
+}
+
+#topnav {
+	margin-top:-5px;
+}
+
+body.header-logo-active #primarylogo, body.header-logo-active #primarylogo a {
+	position: relative;
+}
+
+
+
+nav#primary ul.sf-menu{
+	float:left;
+	margin-left: 0px;
+	margin-right: 115px;
+	padding-top: 0px;
+	margin-top: 30px;	
+}
+
+#content {
+padding: 0px !important;
+}
+
+nav#primary {
+    height: 100%;
+	float:right
+}
+
+.responsive-slider.flexslider .slides img{
+	border-bottom:1px solid #EEEEEE;
+	width:1024px;
+
+}
+
+ 
+#headerTitle h1{
+	margin-top:30px;
+	margin-bottom:30px;
+	font-family:'helvetica', sans-serif;
+	color:#333333;
+}
+
+#footercredits .footerleft{
+	margin-left:0px;
+}
+	
+#footercredits p {
+margin-top: 10px;
+}
+
+#footercredits {
+padding: 10px 0px 10px;
+font-size: 11px;
+color: #999;
+}
+
+article.postblog{
+	
+}
+
+nav#primary ul.sf-menu li a {
+font-weight: bold;
+color: #9DA6AE;
+padding-right: 41px;
+}
+
+.section h2 span, h2.horizontalheading span {
+
+}
+
+.section h2, h2.horizontalheading {
+}
+
+.responsive-slider.flexslider .slide-title a {padding: 0 1em;}
+
+#headersearchform input.searchinput{
+
+	background: transparent;
+	padding:4px 15px 2px 15px;
+	border:1px solid #bbb;
+	display: inline-block;
+	*zoom:1;
+	*display:inline;
+
+	height:40px;
+	width:206px;
+	border-bottom:none;
+	border-top:none;
+	border-right:none;
+	border-left:1px solid #EEEEEE;
+  
+	/*
+	color: #414151;
+	font-weight: normal;
+	padding-right: 15px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
+
+	text-transform:lowercase;
+	*/
+}
+
+nav#primary ul.sf-menu li a:hover{
+	color:#414151;
+}
+#headersearchform input.searchsubmit{
+	display: inline-block;
+	*zoom:1;
+	*display:inline;
+	width:35px;
+	height:40px;
+	position: relative;
+	text-indent: -9999px;
+	background: url("../wpflexishoptwo/images/search.png") no-repeat center center;
+	border:none;
+}
+#headersearchform input.searchsubmit:hover{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;	
+}
+a, a:visited {
+    color: #5F66AC !importan;
+}
+
+nav#primary ul.sf-menu li.current-menu-ancestor a, nav#primary ul.sf-menu li.current-menu-item a {
+    color: #5F66AC !important;
+}
+
+div.product .woocommerce_tabs ul.tabs {
+	list-style-type: none;
+	background: none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	box-shadow: inset 0 -1px 0px rgba(0, 0, 0, 0.05);
+	-o-box-shadow: inset 0 -1px 0px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 -1px 0px rgba(0, 0, 0, 0.05);
+	-webkit-box-shadow: inset 0 -1px 0px rgba(0, 0, 0, 0.05);
+	padding: 0px 10px 0px 30px;
+	margin: 0;
+	border-left:none;
+	border-right:none;
+	border-top:1px solid #EEEEEE;	
+}
+grasse-productmedia="screen, projection"
+ul, ol { 	margin: 1em 0; 	padding: 0 0 0 40px; }
+
+div.product div.summary .price {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 1em;
+	color: #5F66AC;
+}
+div.product div.summary .single_variation .price{ 	border-right: solid #CCCCCC 1px; 	padding-right: 15px;	 	float: left; }
+table.shop_table th { 	background: none; 	color: #32383F; 	font-weight: bold; 	line-height: 18px; 	padding: 9px 12px; }
+.variations_button{float:left; width:100%; margin-bottom:0px} 
+table.shop_table {
+	font-size: 12px;
+	border: 1px solid #E7E7E7;
+	margin: 0px -1px 24px 0px;
+	text-align: left;
+	width: 100%;
+	border-collapse: separate;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 0px;
+}
+
+.margin .clearfix  h1{
+
+}
+
+#content h2 a{
+	visibility: hidden;
+}
+
+tr.cart-subtotal th{
+	text-align:left;
+	color:#6067AD
+} 
+
+tr.shipping th{
+	text-align:left;
+	color:#6067AD;
+	width:100px;
+}
+tr.total th{
+	text-align:left;
+	color:#6067AD
+}
+
+.cart_totals p > small{
+	font-size:11px;
+	text-align: left !important;
+	color:#999999;
+	line-height:12% !important;
+}
+
+nav#primary ul.sf-menu li a {
+    color: #6365AE;
+    font-weight: normal;
+    padding-right: 0px;
+	font-family: 'Raleway', sans-serif;
+	font-size:17px;
+	padding-left:0px;
+	font-weight: 500;
+	
+	-webkit-transition:color 0.5s ease-in;  
+	-moz-transition:color 0.5s ease-in;  
+	-o-transition:color 0.5s ease-in;  
+	transition:color 0.5s ease-in;  		
+}
+
+#sidebar {
+	padding: 0px 0px 35px;
+	font-size: 12px;
+	margin-top:0px;
+}
+
+::-webkit-input-placeholder {
+   color: #414151 !important;
+}
+
+h1 {
+color: #333333 !important;
+font-size: 2em;
+line-height: 1.35;
+margin-bottom: 0.5em;
+font-weight: 500;
+}
+
+ul#topnavmenu li.menu-item a, ul#topnavmenu li#basketlink a.basket, #headersearchform input.searchinput{
+	color: #414151;
+	font-family:'arial','helvetica' sans-serif;
+	font-weight:bold;
+	font-size:12px;
+}
+
+#topnav {
+font-size: 11px;
+font-weight: bold;
+}
+
+#footertop h3.widget-title, #footerbottom h3.widget-title {
+	font-size: 18px;
+	text-transform: lowercase;
+	letter-spacing: .13em;
+	margin-bottom: 30px;
+	margin-top: 12px;
+	color: #414151;
+	font-family: 'raleway' sans-serif;
+	font-weight: 500;	
+}
+
+.postcontent p {
+	font-size: 18px;
+	font-family: 'raleway', sans-serif;
+	color: #414151;
+}
+.entry .postcontent h3{
+	text-transform:lowercase;
+	font-family: 'Raleway', sans-serif;
+	color:#414151;
+	font-weight: normal;
+	text-shadow: 0px 0px 1px #17171B;
+}
+.woocommerce-message{
+	margin-bottom: 27px;
+	background-color: #DFF2BF;
+	height: 40px;
+	border: 1px solid #4F8A10;
+	color: #4F8A10;
+	font-family: 'arial', 'helvetica' sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+.woocommerce-tabs .tabs{ 	list-style: none; 	display: block; 	float: left; 	width: 100%; margin-top: 0px; }
+
+div.product div.summary {margin-bottom:40px}
+#topnavright {     float: left;     height: 45px;     width: 100%; 	border-bottom:solid #EEEEEE 1px }
+#topnavright #headersearchform{ 	float:right; }
+.bjpost li img { 		 		width:650px; 		margin-bottom:20px; 		margin-top:20px; }
+
+.bjpost{ 	margin:0px; 	padding:0px;	 }
+
+.sidebar div.widget h3 { font-size: 18px; font-weight: normal; font-family:'raleway', sans-serif; color:#404051; }
+
+.bj-blog p{ 	font-family:'helvetica',sans-serif; font-size:13px; color:#555555; }
+
+.bj-page p{ 	font-family:'helvetica',sans-serif; font-size: 12px; color: #555555; line-height: 1.7; }
+
+.postmeta{ 	font-family:'helvetica',sans-serif; font-size:13px; color:#555555; }
+
+.prima_twitter li { margin-bottom: 1em; font-family:'helvetiva', sans-serif; color:#999999; }
+
+.prima_recent_posts p{ font-size: 11px; color: #999999; font-family:'helvetiva', sans-serif; }
+
+ul.product_list_widget li a { display: block; font-weight: bold; font-family:'helvetiva', sans-serif; font-weight:13px; color:#444444; }
+
+.price .amount{ 	color:#5F66AC; 	font-size:20px; }
+
+.amount{ 	color:#5F66AC; 	font-size:11px; }
+
+.entry h2.posttitle { 	visibility: hidden; }
+#tab-description p{ 	font-size:12px; 	color:#4E5154; 	font-weight: normal; 	font-family:'helvetica', sans-serif; }
+
+.products .price .amount { 	color: #B1B1B1; 	font-size: 12px; 	font-family: 'helvetica', sans-serif; 	font-weight: bold; }
+
+.products .price ins .amount {
+	color:#F84034
+}
+#resize-symbol {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	padding: 0;
+	margin: 0;
+	visibility: hidden !important;
+}
+
+.dw_twitter .tweet-item{
+	width:100%;
+	margin:0 0 25px 0
+}
+.dw_twitter .tweet-item .time{
+	display:block;
+	font-size:12px;
+}
+.dw_twitter .tweet-item .tweet_text{
+	line-height:14px;
+	color:#878787;
+	width:100%
+}
+footer .prima_recent_posts h3 a, .dw_twitter .tweet-item .tweet_text a{
+	color:#414151;
+	font-family: Hevetica, Arial, sans-serif;
+	font-weight:bold;
+}
+footer .prima_recent_posts .postmeta{
+	color:#5F66AC
+}
+ul.page-numbers li{display: inline-block;}
+a.page-numbers{padding: 0 4px;}
+a.page-numbers:hover{color: #FFF;background: #CCCCCC;}
+span.page-numbers.current{padding: 0 4px;color: #FFF;background: #5F66AC;}

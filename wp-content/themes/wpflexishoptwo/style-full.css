@@ -1,0 +1,78 @@
+/**
+* The stylesheet for FULL style layout.
+*
+* @package WordPress
+* @subpackage WPFlexiShop_Two
+* @since WP FlexiShop Two 1.0
+*/
+
+body {
+  background:#FFF;
+}
+
+#container{
+  padding:0;
+}
+
+#container .containerInner {
+  width:100%;
+  margin:0 auto;
+  position:relative;
+  border-top:5px solid #d35147;
+}
+
+.margin{
+  width:1024px;
+  margin:0 auto;
+}
+
+#topnav {
+  background:#FFF;
+  border-bottom: 1px solid #eee;
+}
+
+nav#primary{
+  background:#FFF;
+  clear: both;
+}
+
+#header {
+  background: #F5F7FA;
+  box-shadow: inset 0 -15px 15px rgba(0, 0, 0, 0.05);
+  -o-box-shadow: inset 0 -15px 15px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 -15px 15px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: inset 0 -15px 15px rgba(0, 0, 0, 0.05);
+}
+
+#header  #headersearchform input.searchinput{
+  border:none;
+  box-shadow:inset 0 1px 0 rgba(0, 0, 0, 0.3), 0 0px 1px rgba(0, 0, 0, 0.1);
+  -o-box-shadow:inset 0 1px 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow:inset 0 1px 0 rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow:inset 0 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+#headersubcategories{
+  width:1024px;
+  margin:0 auto;
+  border-top:1px dashed #bbb;
+  border-left:1px dashed #bbb;
+  border-right:1px dashed #bbb;
+}
+
+#headersubcategories ul{
+  padding-left:15px;
+  padding-right:15px;
+}
+
+#header #headercustom {
+	padding: 0;
+}
+
+#footertop, #footerbottom {
+  background: #f6f6f6;
+}
+
+#footertop, #footerbottom, #footercredits {
+  border-top: 1px solid #eee;
+}

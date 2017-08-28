@@ -1,0 +1,267 @@
+#prima-settings  { margin: 15px 10px 10px 0; width: 827px; position:relative; z-index: 0 }
+
+#prima-settings .prima_header_title { text-align: left; float: left; width: 500px; display: inline; 
+    font: italic 22px/22px Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+    margin: 0;
+    padding: 0;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+
+.prima-settings-header { background: #f3f3f3; border:solid #ccc; border-width:1px 1px 1px 1px; padding: 10px 20px 0px 10px; height: 35px; text-align: right;
+/*INSET SHADOW*/
+-webkit-box-shadow: inset 1px 1px 0 rgba(255,255,255,.2), inset -1px -1px 0 rgba(255,255,255,.2);
+-moz-box-shadow: inset 1px 1px 0 rgba(255,255,255,.2), inset -1px -1px 0 rgba(255,255,255,.2);
+box-shadow: inset 1px 1px 0 rgba(255,255,255,.2), inset -1px -1px 0 rgba(255,255,255,.2);
+background:#d9d9d9;background:-moz-linear-gradient(bottom,#d7d7d7,#e4e4e4);background:-webkit-gradient(linear,left bottom,left top,from(#d7d7d7),to(#e4e4e4));
+}
+.prima-settings-footer { background: #f3f3f3; border:solid #ccc; border-width:0px 1px 1px 1px; padding: 10px 20px 0px 20px; height: 35px; text-align: right;
+/*INSET SHADOW*/
+-webkit-box-shadow: inset 1px 1px 0 rgba(255,255,255,.2), inset -1px -1px 0 rgba(255,255,255,.2);
+-moz-box-shadow: inset 1px 1px 0 rgba(255,255,255,.2), inset -1px -1px 0 rgba(255,255,255,.2);
+box-shadow: inset 1px 1px 0 rgba(255,255,255,.2), inset -1px -1px 0 rgba(255,255,255,.2);
+background:#d9d9d9;background:-moz-linear-gradient(bottom,#d7d7d7,#e4e4e4);background:-webkit-gradient(linear,left bottom,left top,from(#d7d7d7),to(#e4e4e4));
+}
+
+#prima-settings #prima-settings-message  { margin: 0; padding: 10px 10px 10px 40px; font-weight: bold; background: #FFFFE0 url(../images/ico-note.png) 15px center no-repeat; border-left: 1px solid #d8d8d8; border-right: 1px solid #d8d8d8; border-bottom: 1px solid #d8d8d8; }
+
+#prima-settings #prima-main  { background-color: #f1f1f1; border-left: 1px solid #d8d8d8; border-right: 1px solid #d8d8d8; border-bottom: 1px solid #d8d8d8; }
+
+#prima-settings #prima-nav  { float: left; position: relative; z-index: 9999; width: 190px; }
+#prima-settings #prima-nav ul { margin:0; padding:0; }
+#prima-settings #prima-nav li { margin-bottom:0}
+#prima-settings #prima-nav ul li a:link, #prima-nav ul li a:visited  { display: block; padding: 10px 10px 10px 15px; font:bold 12px/18px sans-serif; text-decoration: none; color: #797979; border-bottom: 1px solid #d8d8d8; border-top:1px solid #fff; text-shadow: 0 1px 0 #fff; }
+#prima-settings #prima-nav ul li.current a, #prima-nav ul li a:hover  { color: #21759b; background-color: #fff; }
+
+#prima-settings #prima-content  { float: left; min-height: 650px; width: 595px; margin-left: -1px; padding: 0 20px; font-family: "Lucida Grande", Verdana,  sans-serif; background-color: #fff; border-left: 1px solid #d8d8d8; }
+
+#prima-settings #prima-content .section { margin-bottom: 10px;}
+#prima-settings #prima-content .section h3.heading  { font-size:1.1em; margin: 10px 0 10px 0; padding: 7px 0px; /* background: #f1f1f1 url(../images/headingtop.jpg) repeat-x left top; */ border-bottom: 1px solid #e7e7e7; }
+#prima-settings #prima-content .section .controls  { float: left; width: 345px; margin: 0 15px 0 0; }
+#prima-settings #prima-content .section .explain  { float: left; width: 225px; padding: 0 10px 0 0; font-size: 11px; color: #999999; font-family: sans-serif; }
+
+#prima-settings #prima-content .section.onecolumn .controls  { float: none; width: 100%; margin: 0; }
+#prima-settings #prima-content .section.onecolumn .explain  { float: none; width: 100%; margin: 0; }
+
+#prima-settings #prima-content .section-checkbox .controls { width:25px}
+#prima-settings #prima-content .section-checkbox .explain { width:540px}
+
+#prima-settings #prima-content .section-wysiwyg .controls { width:100%}
+#prima-settings #prima-content .section-wysiwyg .explain { width:100%}
+
+#prima-settings #prima-content .section-color .controls { width:125px}
+#prima-settings #prima-content .section-color .explain { width:440px}
+
+#prima-settings #prima-content .section-info  h3.heading {
+ font-size: 12px; font-weight: 100; border: 0; margin-top: 20px; letter-spacing: 1px;  border-top: 1px solid #FFF298; margin-bottom: 0; background:#EFE186; padding: 10px 20px; }
+#prima-settings #prima-content .section-info  .controls { width: 100%; }
+#prima-settings #prima-content .section-info  .controls .prima-info-box { padding: 15px 20px; width: auto; line-height: 1.5em; font-size: 14px; font-style: italic; font-family: Georgia,arial; background: #FFF298; border:1px solid #ECD852; color:#424242;}
+#prima-settings #prima-content .section-info  .controls small { font-size: 12px}
+
+#prima-settings #prima-content .section-info  h3.heading {
+	-moz-border-radius-topleft:4px;
+	-moz-border-radius-topright:4px;
+}
+#prima-settings #prima-content .section-info .controls{ 
+	-moz-border-radius-bottomleft:4px;
+	-moz-border-radius-bottomright:4px; 
+}
+
+#prima-settings textarea, #prima-settings input, #prima-settings select {
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	-border-radius:4px;
+	border-style:solid;
+	border-width:1px;
+}
+
+#prima-settings .controls input,#prima-settings .controls select,#prima-settings .controls textarea {
+    margin-bottom: 9px !important;
+    background-color: #fafafa;
+    border: 1px solid;
+    border-color: #CCCCCC #EEEEEE #EEEEEE #CCCCCC;
+    width: 340px;
+    padding: 5px;
+    font-family: "Lucida Grande", Verdana,  sans-serif;
+    font-size: 12px;
+    color:#555;
+}
+#prima-settings .controls input:hover,#prima-settings .controls select:hover,#prima-settings .controls textarea:hover { color:#333; background: #fff;}
+
+#prima-settings .controls input.upload { float: left; width:280px; padding-bottom:6px;  }
+#prima-settings .controls input.upload_button{ float:left; width:45px; border-color:#BBBBBB; cursor:pointer; height:16px; }
+#prima-settings .controls input.upload_button:hover { border-color:#666666; color:#000; }
+
+#prima-settings .screenshot {
+	float:left;
+	margin-left:1px;
+	position:relative;
+	width:344px;
+	margin-top:3px;
+}
+
+#prima-settings .screenshot img {
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	-border-radius:4px;
+	background:#FAFAFA;
+	border-color:#CCCCCC #EEEEEE #EEEEEE #CCCCCC;
+	border-style:solid;
+	border-width:1px;
+	float:left;
+	max-width:334px;
+	padding:4px;
+}
+
+#prima-settings .screenshot .remove { 
+
+	background:url("../images/ico-delete.png") no-repeat;
+	border:medium none;
+	bottom:-4px;
+	display:block;
+	float:left;
+	height:16px;
+	padding:0;
+	position:absolute;
+	left:-4px;
+	text-indent:-9999px;
+	width:16px;
+}
+
+
+/* SELECT DROPDOWN */
+#prima-settings #prima-content select.prima-input {
+	cursor:pointer;
+	height:28px;
+	margin:0;
+	opacity:0;
+	padding:0;
+	position:relative;
+	width:inherit;
+	z-index:4;
+}
+
+#prima-settings #prima-content .select_wrapper {
+      -moz-border-radius: 4px;
+      -webkit-border-radius: 4px;
+      border-radius: 4px;
+      font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+      font-size: 12px;
+      background: #fafafa url(../images/select.png) no-repeat right center;
+      border-color: #ccc #eee #eee #ccc;
+      border-style: solid;
+      border-width: 1px;
+      float: left;
+      height: 26px;
+      width: 344px;
+      margin: 0;
+      margin-bottom: 9px !important;
+      width: 344px;
+      display: block;
+      color: #555;
+}
+#prima-settings #prima-content .option-type .select_wrapper {
+	background-color: #fff;
+}
+#prima-settings #prima-content .select_wrapper:hover {
+	background-color: #fff;
+	border-color: #bbb #eee #eee #bbb;
+	color: #333;
+}
+#prima-settings #prima-content .select_wrapper span {
+	height: 26px;
+	line-height: 26px;
+	position: absolute;
+	z-index: 2;
+	padding-left: 6px;
+}
+
+
+#prima-settings .colorSelector { margin-top:1px; }
+#prima-settings .colorSelector:hover { cursor:pointer; }
+#prima-settings .controls select { padding: 4px; width: 340px }
+#prima-settings .controls select:hover { cursor: pointer;}
+#prima-settings .controls textarea {width: 345px; }
+
+#prima-settings input[type=text], #prima-settings select { height:28px; }
+#prima-settings input[type=text]  { width: 340px; }
+
+#prima-settings input.prima-input-calendar  { width: 320px; }
+
+#prima-settings input.checkbox  { width: 30px; }
+#prima-settings input.prima-radio { width: 30px; }
+
+#prima-settings .controls .input-text-small { width: 60px; margin-right:10px}
+#prima-settings .meta-two { margin-right:10px}
+
+#prima-settings .controls .prima-color {float:left; width: 80px; margin-left:5px; /* font-size:20px; height:34px;*/}
+
+#prima-settings #prima-content .section-typography .controls  { width:425px }
+#prima-settings #prima-content .section-typography .explain  { width:140px }
+
+#prima-settings .controls .prima-typography-size { width:50px; float:left}
+#prima-settings .controls .prima-typography-unit { width:50px; float:left}
+#prima-settings .controls .prima-typography-face { width:120px; float:left}
+#prima-settings .controls .prima-typography-style { width:80px; float:left}
+
+#prima-settings .controls .prima-radio-img-img { padding: 6px; margin:0 5px 10px 0; display:none; cursor:pointer;}
+#prima-settings .controls .prima-radio-img-img:hover { padding: 3px; border:3px solid #777777}
+#prima-settings .controls .prima-radio-img-selected { padding: 3px; border:3px solid #777777}
+#prima-settings .controls .prima-radio-img-img:hover { opacity:.8; }
+
+#prima-settings .controls .prima-border-width { width:80px; float:left}
+#prima-settings .controls .prima-border-style { width:120px; float:left}
+
+#prima-settings #prima-content .section-background .controls  { width:425px }
+#prima-settings #prima-content .section-background .explain  { width:140px }
+#prima-settings .controls .prima-background-repeat { width:120px; float:left}
+#prima-settings .controls .prima-background-vposition { width:80px; float:left}
+#prima-settings .controls .prima-background-hposition { width:80px; float:left}
+
+#prima-settings .group { padding-bottom:20px}
+#prima-settings .group h2 { display:none;  border-bottom:3px solid #e7e7e7}
+
+#prima-settings input:focus,#prima-settings select:focus, #prima-settings textarea:focus { background:#fff;}
+
+.upload_button_div { margin-bottom: 10px;}
+.upload_button_div .button { padding:4px 14px;
+}
+.upload_button_div  .image_reset_button { margin-left:10px}
+
+.upload-error { float:left;color:#666; font-size:10px; font-weight:bold; text-decoration:none; text-shadow:1px 1px 0 #FFFFFF;
+				  margin: 0 10px 0 0; padding:3px 10px; background:#FFDFEC; -moz-border-radius:4px}
+
+.reset-button { color:#c77!important;text-shadow:0 1px 0 #fff !important;}
+.reset-button:hover { border-color:#c77!important;}
+
+.hide {display:none}
+
+.prima-option-image { max-width:340px; }
+
+#prima-settings .mini .controls select, #prima-settings #prima-content .section .mini .controls {width: 70px; }
+#prima-settings .mini .controls input, #prima-settings #prima-content .mini .controls {width: 70px; }
+
+#prima-settings #prima-content .mini .explain { width:500px; }
+
+.prima-notice { background: #ffd1d1 ; border:1px solid #DFA8A7; -moz-border-radius:8px; text-align: center; margin-bottom: 15px  }
+
+/* http://sonspring.com/journal/clearing-floats */
+
+html body * span.clear,
+html body * div.clear,
+html body * li.clear,
+html body * dd.clear
+{
+	background: none;
+	border: 0;
+	clear: both;
+	display: block;
+	float: none;
+	font-size: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
